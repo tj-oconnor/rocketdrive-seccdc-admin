@@ -1,0 +1,12 @@
+To: Jennifer
+From: Bradley
+Subject: RFC 1149 Test Results
+
+Hey Jennifer,
+
+Bad news: The avian carriers went off-course during transmission. Apparently, Venus' gravity well disrupted our routing tables.
+
+Will attempt TCP retransmission via geese.
+
+Regards,
+Bradley

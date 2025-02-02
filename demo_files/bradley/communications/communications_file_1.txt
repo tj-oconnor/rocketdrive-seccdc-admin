@@ -1,0 +1,6 @@
+To: Jennifer
+Subject: Lost Packet Transmission
+
+Hey Jennifer,
+
+I sent an important message using RFC 1149, but the pigeon took an unexpected detour to Titan. I'll resend the data via encrypted goose.

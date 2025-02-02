@@ -1,0 +1,3 @@
+Title: RocketDrive Contract Proposal
+
+RocketDrive proposes offering high-speed interplanetary logistics to CHI. The biggest challenge remains the 8-minute communication delay between Earth and Mars, making 'overnight shipping' highly subjective.

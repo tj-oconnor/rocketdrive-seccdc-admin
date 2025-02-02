@@ -1,0 +1,3 @@
+Title: The Nginx Incident
+
+After setting up Nginx to handle interplanetary routing, an engineer realized they had set the default timeout to 'one light-year'. Network debugging is ongoing.

@@ -1,0 +1,10 @@
+To: Maxwell Starling
+From: Jennifer
+Subject: Avian Carrier RFC Issues
+
+Hi Max,
+
+Bradley from RocketDrive is experimenting with RFC 1149 (IP over Avian Carriers) again. There’s a security concern: our IT department found several unencrypted messages tied to pigeon legs.
+
+Best,
+Jennifer

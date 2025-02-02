@@ -1,0 +1,3 @@
+RocketDrive Business Proposal: Asteroid Cargo Towing Service
+
+Plan to attach high-powered thrusters to small asteroids for fast cargo transport. Initial tests show unintended side effects (mainly, asteroids crashing into things).

@@ -1,0 +1,3 @@
+Engineering Log: Space Suit Malfunction
+
+A recent batch of CHI space suits appears to have an issue where the helmet display shows 'Battery Low' even when fully charged. Investigating possible sabotage by RocketDrive.

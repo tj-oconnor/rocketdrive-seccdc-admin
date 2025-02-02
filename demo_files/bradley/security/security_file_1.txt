@@ -1,0 +1,3 @@
+Security Notice: Avian Interference in Network Operations
+
+RocketDrive's attempt at a hybrid pigeon-satellite relay system has resulted in several birds nesting inside critical communication hubs. IT recommends an immediate migration (of birds, not data).

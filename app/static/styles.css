@@ -1,0 +1,274 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000;
+    color: #d3d3d3;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Centered container for login */
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+/* Login form styling */
+.login-form {
+    background-color: #111;
+    border-radius: 15px;
+    padding: 30px;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.login-form h1 {
+    color: #fff;
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-shadow: 0px 0px 3px #5bc0de;
+    margin-bottom: 20px;
+}
+
+.login-form .input-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 15px;
+}
+
+.login-form input {
+    width: 30%;
+    padding: 10px;
+    border: 2px solid #5bc0de;
+    border-radius: 10px;
+    background-color: #222;
+    color: #d3d3d3;
+    font-size: 14px;
+}
+
+.login-form input::placeholder {
+    color: #888;
+}
+
+.login-form button {
+    width: 30%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #5bc0de;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.login-form button:hover {
+    background-color: #333;
+    color: #5bc0de;
+}
+
+/* Footer Links */
+.footer-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-links a {
+    color: #5bc0de;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Explorer-specific styling adjustments */
+.file-explorer-container {
+    padding: 20px;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    background-color: #111;
+    border-radius: 10px;
+    border: 2px solid #5bc0de;
+    color: #d3d3d3;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #5bc0de;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #fff;
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    text-shadow: 0px 0px 3px #5bc0de;
+    padding: 5px;
+    display: inline-block;
+}
+
+.logout-btn {
+    background-color: #5bc0de;
+    color: #000;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.logout-btn:hover {
+    background-color: #333;
+    color: #5bc0de;
+}
+
+.create-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.create-form input, .create-form select, .create-form button {
+    padding: 5px;
+    border: 2px solid #5bc0de;
+    border-radius: 5px;
+    background-color: #222;
+    color: #d3d3d3;
+}
+
+.create-form button {
+    background-color: #5bc0de;
+    color: #000;
+    cursor: pointer;
+}
+
+.create-form button:hover {
+    background-color: #333;
+    color: #5bc0de;
+}
+
+.file-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.file-list li {
+    margin: 10px 0;
+}
+
+.file-list a {
+    text-decoration: none;
+    color: #5bc0de;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.file-list .directory a:hover, .file-list .file a:hover {
+    color: #add8e6;
+}
+
+/* File Viewer Styling */
+.file-viewer-container {
+    padding: 20px;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    background-color: #111;
+    border-radius: 10px;
+    border: 2px solid #5bc0de;
+    color: #d3d3d3;
+    display: flex;
+    flex-direction: column;
+}
+
+.file-viewer-container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #5bc0de;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.file-viewer-container header h1 {
+    color: #fff;
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    text-shadow: 0px 0px 3px #5bc0de;
+    padding: 5px;
+    display: inline-block;
+}
+
+.back-btn {
+    background-color: #5bc0de;
+    color: #000;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.back-btn:hover {
+    background-color: #333;
+    color: #5bc0de;
+}
+
+.file-content {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #222;
+    border-radius: 10px;
+    color: #d3d3d3;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.file-content h2 {
+    color: #5bc0de;
+    margin-bottom: 10px;
+}
+
+.file-content pre {
+    max-height: 100%;
+    overflow-y: auto;
+    background-color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #5bc0de;
+}
+

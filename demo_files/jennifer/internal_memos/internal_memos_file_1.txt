@@ -1,0 +1,3 @@
+Internal Memo: Emergency Mars Rover Recall
+
+Due to a miscalculation in terrain analysis, CHI rovers on Mars have started autonomously drifting towards the nearest crater. Immediate software patch required.

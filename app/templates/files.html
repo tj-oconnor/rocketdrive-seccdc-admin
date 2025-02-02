@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Files</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Your Files</h1>
+        <a href="/logout">Logout</a>
+        <ul>
+            {% for file in file_list %}
+            <li><a href="/files/{{ subpath }}?file={{ file }}">{{ file }}</a></li>
+            {% endfor %}
+        </ul>
+        {% if file_contents %}
+        <div class="file-viewer">
+            <pre>{{ file_contents }}</pre>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
